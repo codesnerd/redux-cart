@@ -13,7 +13,31 @@ const CartCard = ({
   decrease,
   remove,
 }) => {
-  return <h1>CartCard</h1>;
+  return (
+    <article key={id}>
+      <div className="cart-card">
+        <div className="card-text">
+          <h3>{name}</h3>
+          <p>Category: {category}</p>
+          <p>Description: {description}</p>
+          <br />
+          <p>
+            <b>Price:</b> ${price}/-
+          </p>
+        </div>
+        <div className="quantity">
+          <button className="btn-quantity" onClick={() => increase()}>
+            +
+          </button>
+          {quantity}
+          <button className="btn-quantity" onClick={() => decrease()}>
+            -
+          </button>
+          <button onClick={() => remove()}>Remove</button>
+        </div>
+      </div>
+    </article>
+  );
 };
 
 export default CartCard;
