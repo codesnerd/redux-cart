@@ -56,6 +56,18 @@ function reducer(state, action) {
     };
   }
 
+  // REMOVE
+  if (action.type === REMOVE) {
+    return {
+      ...state,
+      cart: state.cart.filter((cartItem) => cartItem.id !== action.payload.id),
+      total_items: state.total_items - parseInt(action.payload.quantity),
+      bill:
+        state.bill -
+        parseInt(action.payload.quantity) * parseFloat(action.payload.price),
+    };
+  }
+
   // If no action matches, return the existing state
   return state;
 }
