@@ -9,10 +9,13 @@ html {
   height: 100%;
 }
 
+main {
+  font-family: "Segoe UI", Roboto, Ubuntu, sans-serif;
+}
+
 /* CartContainer */
 
 .cart-container {
-  font-family: "Segoe UI", Roboto, Ubuntu, sans-serif;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -40,6 +43,7 @@ html {
 
 .cart-bill {
   padding: 1rem;
+  margin: 1em 0em 2em 0em;
 }
 
 .cart-item-name {
@@ -75,14 +79,6 @@ html {
   border-radius: 5px;
 }
 
-.btn-clear {
-  width: 9em;
-  height: 2.5em;
-  margin-bottom: 2em;
-  font-size: 1.1em;
-  border-radius: 250px;
-}
-
 .btn-remove {
   font-size: 0.9em;
   background: none;
@@ -92,6 +88,13 @@ html {
 
 .btn-remove:hover {
   color: #ff97a8;
+}
+
+.btn-clear {
+  width: 9em;
+  height: 2.5em;
+  font-size: 1.1em;
+  border-radius: 250px;
 }
 
 /* Navbar */
@@ -112,18 +115,20 @@ html {
   margin-bottom: 1em;
 }
 
-.about-link {
-  position: absolute;
-  top: 0.5rem;
-  right: 1em;
-  font-weight: 400;
-  color: black;
-}
-
 /* Footer */
 
 .footer {
   text-align: center;
+  font-size: 1.1em;
+  padding: 1.2rem;
+  margin-top: 3em;
+}
+
+.footer-link {
+  font-family: Poppins, Roboto, sans-serif;
+  font-weight: 400;
+  color: #fa7c92;
+  text-decoration-color: #fa7c92;
 }
 
 /* Media Queries */
