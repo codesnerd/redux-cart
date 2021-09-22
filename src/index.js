@@ -11,8 +11,8 @@ import { Provider } from "react-redux";
 // Initial state value
 const initialState = {
   cart: data,
-  total_items: 2, // data.length
-  bill: 1350, // sum(data.price)
+  total_items: 4, // data.length
+  bill: 850, // sum(data.price)
 };
 
 // Create a globalized Redux store using initialState as the initial value
