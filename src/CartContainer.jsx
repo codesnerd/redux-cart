@@ -8,7 +8,7 @@ const CartContainer = ({ cart = [], total_items, bill, dispatch }) => {
   if (total_items === 0) {
     return (
       <div className="cart-container">
-        <a className="link-reload" href="/">
+        <a className="link-reload" href="/redux-cart">
           RELOAD
         </a>
       </div>
