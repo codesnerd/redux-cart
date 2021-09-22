@@ -39,13 +39,65 @@ html {
   justify-content: space-between;
   flex-wrap: wrap;
   margin-bottom: 1.5em;
-  padding: 2em;
+  padding: 2rem;
   overflow: auto;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .cart-bill {
-  padding: 1em;
+  padding: 1rem;
+}
+
+.cart-item-name {
+  color: #fa7c92;
+}
+
+.quantity {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btn {
+  outline: none;
+  border: none;
+  color: white;
+  background-color: #fa7c92;
+}
+
+.btn:hover {
+  background-color: #ff97a8;
+  transition: background-color 0.5s ease-out;
+}
+
+.btn:active {
+  transform: translateY(2px);
+}
+
+.btn-quantity {
+  width: 2em;
+  height: 1.7em;
+  border-radius: 5px;
+}
+
+.btn-clear {
+  width: 9em;
+  height: 2.5em;
+  margin-bottom: 2em;
+  font-size: 1.1em;
+  border-radius: 250px;
+}
+
+.btn-remove {
+  font-size: 0.9em;
+  background: none;
+  border: none;
+  color: #fa7c92;
+}
+
+.btn-remove:hover {
+  color: #ff97a8;
 }
 
 /* Navbar */
