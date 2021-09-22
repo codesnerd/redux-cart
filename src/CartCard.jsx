@@ -33,7 +33,9 @@ const CartCard = ({
           <button className="btn-quantity" onClick={() => decrease()}>
             -
           </button>
-          <button onClick={() => remove()}>Remove</button>
+          <button className="btn-remove" onClick={() => remove()}>
+            Remove
+          </button>
         </div>
       </div>
     </article>
