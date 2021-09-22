@@ -8,7 +8,6 @@ const CartContainer = ({ cart = [], total_items, bill, dispatch }) => {
   if (total_items === 0) {
     return (
       <div className="cart-container">
-        <h1 className="hero-heading">Cart is empty</h1>
         <a className="link-reload" href="/">
           Reload
         </a>
@@ -17,11 +16,10 @@ const CartContainer = ({ cart = [], total_items, bill, dispatch }) => {
   } else {
     return (
       <div className="cart-container">
-        <h1 className="hero-heading">{total_items} Items in the Cart</h1>
         {cart.map((cartItem) => {
           return <CartCard key={cartItem.id} {...cartItem} />;
         })}
-        <h4 className="cart-bill">
+        <h4 className="cart-card">
           Total: <span>${bill}/-</span>
         </h4>
         <button
