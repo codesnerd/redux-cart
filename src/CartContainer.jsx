@@ -19,9 +19,7 @@ const CartContainer = ({ cart = [], total_items, bill, dispatch }) => {
         {cart.map((cartItem) => {
           return <CartCard key={cartItem.id} {...cartItem} />;
         })}
-        <h4 className="cart-card">
-          Total: <span>${bill}/-</span>
-        </h4>
+        <h4 className="cart-bill">Total: ${bill}/-</h4>
         <button
           className="btn-clear"
           onClick={() => dispatch({ type: CLEAR_CART })}
