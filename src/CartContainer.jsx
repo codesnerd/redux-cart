@@ -9,7 +9,7 @@ const CartContainer = ({ cart = [], total_items, bill, dispatch }) => {
     return (
       <div className="cart-container">
         <a className="link-reload" href="/">
-          Reload
+          RELOAD
         </a>
       </div>
     );
