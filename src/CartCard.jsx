@@ -40,4 +40,28 @@ const CartCard = ({
   );
 };
 
-export default CartCard;
+const mapDispatchToProps = (dispatch, ownProps) => {
+  const { id, price, quantity } = ownProps;
+
+  return {
+    increase: () =>
+      dispatch({
+        type: INCREASE,
+        payload: { id, price, quantity },
+      }),
+
+    decrease: () =>
+      dispatch({
+        type: DECREASE,
+        payload: { id, price, quantity },
+      }),
+
+    remove: () =>
+      dispatch({
+        type: REMOVE,
+        payload: { id, price, quantity },
+      }),
+  };
+};
+
+export default connect(null, mapDispatchToProps)(CartCard);
