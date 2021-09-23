@@ -6,13 +6,13 @@ This project is live at [codesnerd.github.io/redux-cart](https://codesnerd.githu
 ## 🧾 About the Project
 A cart whose state is managed using Redux.
 
-## Prerequisites
-♦ COMING SOON
-
 ### Built With
 This cart is built using
 * [React](https://reactjs.org/docs/getting-started.html)
 * [Redux](https://redux.js.org/introduction/getting-started)
+
+### Prerequisites
+♦ COMING SOON
 
 ### If you find the repo useful, do support it by giving a star. ⭐
 
