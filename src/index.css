@@ -48,6 +48,7 @@ main {
 
 .cart-item-name {
   color: #fa7c92;
+  margin-bottom: 0.3em;
 }
 
 .quantity {
