@@ -136,6 +136,10 @@ main {
 /* Media Queries */
 
 @media all and (max-width: 560px) {
+  .hero-heading {
+    font-size: 1.8em;
+  }
+
   .cart-card {
     width: fit-content;
     padding-top: 1.5rem;
@@ -164,7 +168,7 @@ main {
 
 @media all and (max-width: 410px) {
   .hero-heading {
-    font-size: 1.8em;
+    font-size: 1.7em;
   }
 
   .link-reload {
