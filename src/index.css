@@ -16,7 +16,7 @@ main {
 /* CartContainer */
 
 .cart-container {
-  min-height: 50vh;
+  min-height: 66vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -122,7 +122,7 @@ main {
 .footer {
   text-align: center;
   font-size: 1.1em;
-  padding: 1.2rem;
+  padding: 1rem;
   margin-top: 3em;
 }
 
@@ -136,6 +136,9 @@ main {
 /* Media Queries */
 
 @media all and (max-width: 560px) {
+  .cart-container {
+    min-height: 70vh;
+  }
   .hero-heading {
     font-size: 1.8em;
   }
