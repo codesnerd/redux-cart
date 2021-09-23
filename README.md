@@ -1,18 +1,16 @@
 # Redux Cart
 
-## 🔴 Live Demo
+## 🔴 Demo
 This project is live at [codesnerd.github.io/redux-cart](https://codesnerd.github.io/redux-cart).
 
 ## 🧾 About the Project
 A cart whose state is managed using Redux.
 
 ### Built With
-This cart is built using
 * [React](https://reactjs.org/docs/getting-started.html)
 * [Redux](https://redux.js.org/introduction/getting-started)
-
-### Prerequisites
-♦ COMING SOON
+* [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+* [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) - [Flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox)
 
 ### If you find the repo useful, do support it by giving a star. ⭐
 
