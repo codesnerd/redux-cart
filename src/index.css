@@ -80,7 +80,7 @@ main {
 }
 
 .btn-remove {
-  font-size: 0.9em;
+  /* font-size: 0.9em; */
   background: none;
   border: none;
   color: #fa7c92;
@@ -144,14 +144,6 @@ main {
     width: 100%;
   }
 
-  .hero-heading {
-    font-size: 1.8em;
-  }
-
-  .about-heading {
-    font-size: 1.3em;
-  }
-
   .link-reload {
     font-size: 1.5em;
   }
@@ -168,14 +160,9 @@ main {
   }
 }
 
-@media all and (max-width: 450px) {
+@media all and (max-width: 410px) {
   .hero-heading {
-    margin-left: 10px;
     font-size: 1.8em;
-  }
-
-  .about-heading {
-    font-size: 1.3em;
   }
 
   .link-reload {
