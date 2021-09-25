@@ -7,11 +7,16 @@ const Footer = () => {
         <a
           className="footer-link"
           href="https://github.com/codesnerd/redux-cart"
+          target="_blank"
         >
           &lt;/&gt;
         </a>{" "}
         with ❤️ by{" "}
-        <a className="footer-link" href="https://codesnerd.com/">
+        <a
+          className="footer-link"
+          href="https://codesnerd.com/"
+          target="_blank"
+        >
           codesnerd
         </a>
       </p>
