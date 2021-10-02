@@ -1,4 +1,4 @@
-export default [
+const data = [
   {
     id: 1,
     name: "Party Makeup",
@@ -32,3 +32,5 @@ export default [
     quantity: 1,
   },
 ];
+
+export default data;
