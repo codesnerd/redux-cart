@@ -8,6 +8,7 @@ const Footer = () => {
           className="footer-link"
           href="https://github.com/codesnerd/redux-cart"
           target="_blank"
+          rel="noreferrer"
         >
           &lt;/&gt;
         </a>{" "}
@@ -16,6 +17,7 @@ const Footer = () => {
           className="footer-link"
           href="https://codesnerd.com/"
           target="_blank"
+          rel="noreferrer"
         >
           codesnerd
         </a>
