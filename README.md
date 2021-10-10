@@ -45,7 +45,7 @@ OS X or Linux Node version managers
 * If you wish to know more about npm, read [this awesome article](https://medium.com/@tanya/what-the-heck-is-npm-b8168f61e3b5) by [Tanya Gray](https://medium.com/@tanya).
 
 ### ▶️ Run on Local Machine
-Now, you're ready to run this project on your local machine. To do so, you need to
+Now you're ready to run this project on your local machine. To do so, follow these steps:
 1. Clone this repo by running the following command in the command line (or choose <b>Download ZIP</b> option)
 ```
 git clone https://github.com/codesnerd/redux-cart.git
