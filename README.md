@@ -16,7 +16,7 @@ A cart whose state is managed using Redux.
 ## 🔰 Getting Started
 ### ⬇️ Prerequisites
 To run the project on your local machine, you must have <b>Node.js</b> and <b>npm</b> installed on your machine.
-<br/>You can install these via Node installer or Node version manager:
+<br/>You can install these via Node installer or Node version manager.
 
 #### Node Installer
 You can use a Node installer to install both Node.js and npm on your system.
