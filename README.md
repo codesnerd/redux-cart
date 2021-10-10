@@ -44,6 +44,25 @@ OS X or Linux Node version managers
 * Follow the [official npm Docs guide](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) in case you require detailed guidance or are facing any difficulties.
 * If you wish to know more about npm, read [this awesome article](https://medium.com/@tanya/what-the-heck-is-npm-b8168f61e3b5) by [Tanya Gray](https://medium.com/@tanya).
 
+### Run on Local Machine
+Now, you're ready to run this project on your local machine. To do so, you need to
+1. Clone this repo by running the following command in the command line (or choose <b>Download ZIP</b> option)
+```
+git clone https://github.com/codesnerd/redux-cart.git
+```
+2. Move into the project directory by typing
+```
+cd redux-cart/
+```
+3. Download node modules using
+```
+npm install
+```
+4. Once node modules are installed, type
+```
+npm start
+```
+and the project will be available on `localhost:3000` in your default browser.
 
 ### If you find the repo useful, do support it by giving a star. ⭐
 
