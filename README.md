@@ -21,22 +21,22 @@ To run the project on your local machine, you must have <b>Node.js</b> and <b>np
 #### Node Installer
 You can use a Node installer to install both Node.js and npm on your system.
 
-Windows or OS X installer
+Windows or OS X installer:
 * [Node.js installer](https://nodejs.org/en/download/)
 * Be sure to only install the <b>LTS</b> version.
 
-Linux installer
+Linux installer:
 * [NodeSource installer](https://github.com/nodesource/distributions)
 * Or see [this page](https://nodejs.org/en/download/package-manager/) to install npm for Linux in the way many Linux developers prefer.
 
 #### Node version manager
 Node version managers allow you to install and switch between multiple versions of Node.js and npm on your system so you can test your applications on multiple versions of npm to ensure they work for users on different versions.
 
-Windows Node version managers
+Windows Node version managers:
 * [nodist](https://github.com/nullivex/nodist)
 * [nvm-windows](https://github.com/coreybutler/nvm-windows)
 
-OS X or Linux Node version managers
+OS X or Linux Node version managers:
 * [nvm](https://github.com/nvm-sh/nvm)
 * [n](https://github.com/tj/n)
 
