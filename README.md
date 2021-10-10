@@ -14,7 +14,7 @@ A cart whose state is managed using Redux.
 
 
 ## 🔰 Getting Started
-### Prerequisites
+### ⬇️ Prerequisites
 To run the project on your local machine, you must have <b>Node.js</b> and <b>npm</b> installed on your machine.
 <br/>You can install these via Node installer or Node version manager:
 
@@ -44,7 +44,7 @@ OS X or Linux Node version managers
 * Follow the [official npm Docs guide](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) in case you require detailed guidance or are facing any difficulties.
 * If you wish to know more about npm, read [this awesome article](https://medium.com/@tanya/what-the-heck-is-npm-b8168f61e3b5) by [Tanya Gray](https://medium.com/@tanya).
 
-### Run on Local Machine
+### ▶️ Run on Local Machine
 Now, you're ready to run this project on your local machine. To do so, you need to
 1. Clone this repo by running the following command in the command line (or choose <b>Download ZIP</b> option)
 ```
