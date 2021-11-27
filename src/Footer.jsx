@@ -15,7 +15,7 @@ const Footer = () => {
         with ❤️ by{" "}
         <a
           className="footer-link"
-          href="https://codesnerd.com/"
+          href="https://codesnerd.com"
           target="_blank"
           rel="noreferrer"
         >
