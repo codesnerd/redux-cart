@@ -10,10 +10,6 @@ html {
 }
 
 @media all and (max-width: 560px) {
-  .cart-container {
-    min-height: 70vh;
-  }
-
   .hero-heading {
     font-size: 1.8em;
   }
