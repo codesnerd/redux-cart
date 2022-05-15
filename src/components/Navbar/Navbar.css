@@ -1,0 +1,15 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  font-family: Poppins, Roboto, Ubuntu, sans-serif;
+  background-color: #fa7c92;
+  color: white;
+}
+
+.hero-heading {
+  font-size: 2.5em;
+  font-weight: 700;
+  margin-bottom: 1em;
+}

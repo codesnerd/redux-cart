@@ -13,138 +13,16 @@ main {
   font-family: "Segoe UI", Roboto, Ubuntu, sans-serif;
 }
 
-/* CartContainer */
-
-.cart-container {
-  min-height: 66vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.link-reload {
-  font-size: 2em;
-  color: #fa7c92;
-  text-decoration-color: #fa7c92;
-}
-
-/* CartCard */
-
-.cart-card {
-  width: 536px;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  margin-bottom: 1.5em;
-  padding: 2rem;
-  overflow: auto;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-}
-
-.cart-bill {
-  padding: 1rem;
-  margin: 1em 0em 2em 0em;
-}
-
-.cart-item-name {
-  color: #fa7c92;
-  margin-bottom: 0.3em;
-}
-
-.quantity {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.btn {
-  outline: none;
-  border: none;
-  color: white;
-  background-color: #fa7c92;
-}
-
-.btn:hover,
-.btn:focus {
-  background-color: #ff97a8;
-  transition: background-color 0.5s ease-out;
-}
-
-.btn:active {
-  transform: translateY(2px);
-}
-
-.btn-quantity {
-  width: 2em;
-  height: 1.7em;
-  border-radius: 5px;
-}
-
-.btn-remove {
-  /* font-size: 0.9em; */
-  background: none;
-  border: none;
-  color: #fa7c92;
-}
-
-.btn-remove:hover {
-  color: #ff97a8;
-}
-
-.btn-clear {
-  width: 9em;
-  height: 2.5em;
-  font-size: 1.1em;
-  border-radius: 250px;
-}
-
-/* Navbar */
-
-.navbar {
-  position: sticky;
-  top: 0;
-  width: 100%;
-  text-align: center;
-  font-family: Poppins, Roboto, Ubuntu, sans-serif;
-  background-color: #fa7c92;
-  color: white;
-}
-
-.hero-heading {
-  font-size: 2.5em;
-  font-weight: 700;
-  margin-bottom: 1em;
-}
-
-/* Footer */
-
-.footer {
-  text-align: center;
-  font-size: 1.1em;
-  padding: 1rem;
-  margin-top: 3em;
-}
-
-.footer-link {
-  font-family: Poppins, Roboto, sans-serif;
-  font-weight: 400;
-  color: #fa7c92;
-  text-decoration-color: #fa7c92;
-}
-
-/* Media Queries */
-
 @media all and (max-width: 560px) {
   .cart-container {
     min-height: 70vh;
   }
+
   .hero-heading {
     font-size: 1.8em;
   }
 
-  .cart-card {
+  div .cart-item {
     width: fit-content;
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
@@ -158,7 +36,7 @@ main {
     font-size: 1.5em;
   }
 
-  .quantity {
+  div .quantity {
     width: 100%;
     flex-direction: row-reverse;
     justify-content: flex-start;
@@ -173,9 +51,5 @@ main {
 @media all and (max-width: 410px) {
   .hero-heading {
     font-size: 1.7em;
-  }
-
-  .link-reload {
-    font-size: 1.5em;
   }
 }

@@ -1,8 +1,11 @@
 import React from "react";
-import CartCard from "./CartCard";
+import "./CartContainer.css";
+import "../../index.css";
+
+import CartItem from "./CartItem/CartItem";
 
 import { connect } from "react-redux";
-import { CLEAR_CART } from "./Actions";
+import { CLEAR_CART } from "../../redux/Actions";
 
 const CartContainer = ({ cart = [], total_items, bill, dispatch }) => {
   if (total_items === 0) {
@@ -17,9 +20,9 @@ const CartContainer = ({ cart = [], total_items, bill, dispatch }) => {
     return (
       <div className="cart-container">
         {cart.map((cartItem) => {
-          return <CartCard key={cartItem.id} {...cartItem} />;
+          return <CartItem key={cartItem.id} {...cartItem} />;
         })}
-        <h4 className="cart-card cart-bill">
+        <h4 className="cart-item cart-bill">
           <p>Total:</p>
           <p>${bill}.00/-</p>
         </h4>

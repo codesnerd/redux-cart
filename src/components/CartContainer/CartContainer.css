@@ -1,0 +1,15 @@
+.cart-container {
+  /* min-height: 66vh; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  flex: 1;
+}
+
+.link-reload {
+  font-size: 2em;
+  color: #fa7c92;
+  text-decoration-color: #fa7c92;
+}

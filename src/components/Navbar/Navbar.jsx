@@ -1,4 +1,7 @@
 import React from "react";
+import "./Navbar.css";
+import "../../index.css";
+
 import { connect } from "react-redux";
 
 const Navbar = ({ total_items }) => {

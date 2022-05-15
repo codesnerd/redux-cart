@@ -1,8 +1,11 @@
 import React from "react";
-import { connect } from "react-redux";
-import { INCREASE, DECREASE, REMOVE } from "./Actions";
+import "./CartItem.css";
+import "../../../index.css";
 
-const CartCard = ({
+import { connect } from "react-redux";
+import { INCREASE, DECREASE, REMOVE } from "../../../redux/Actions";
+
+const CartItem = ({
   id,
   name,
   category,
@@ -15,7 +18,7 @@ const CartCard = ({
 }) => {
   return (
     <article key={id}>
-      <div className="cart-card">
+      <div className="cart-item">
         <div>
           <h3 className="cart-item-name">{name}</h3>
           <p>Category: {category}</p>
@@ -66,4 +69,4 @@ const mapDispatchToProps = (dispatch, ownProps) => {
   };
 };
 
-export default connect(null, mapDispatchToProps)(CartCard);
+export default connect(null, mapDispatchToProps)(CartItem);

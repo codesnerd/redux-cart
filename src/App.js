@@ -1,7 +1,9 @@
 import React from "react";
-import Navbar from "./Navbar";
-import CartContainer from "./CartContainer";
-import Footer from "./Footer";
+import "./App.css";
+
+import Navbar from "./components/Navbar/Navbar";
+import CartContainer from "./components/CartContainer/CartContainer";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
