@@ -1,5 +1,5 @@
 .cart-container {
-  /* min-height: 66vh; */
+  min-height: 66vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
