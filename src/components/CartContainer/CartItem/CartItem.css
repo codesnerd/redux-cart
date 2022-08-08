@@ -56,6 +56,7 @@
   background: none;
   border: none;
   color: #fa7c92;
+  cursor: pointer;
 }
 
 .btn-remove:hover {
