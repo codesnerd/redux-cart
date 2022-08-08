@@ -4,11 +4,6 @@
   box-sizing: border-box;
 }
 
-body,
-html {
-  min-height: 100%;
-}
-
 @media all and (max-width: 560px) {
   .hero-heading {
     font-size: 1.8em;
